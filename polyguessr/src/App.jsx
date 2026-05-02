@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet'
+import ImagePanel from './components/ImagePanel'
+import Map from './components/Map'
 
 const CAMPUS_CENTER = [46.5197, 6.5665]
 const EXCLUDED = ['#77', '#164']
@@ -47,6 +48,7 @@ export default function App() {
 
   const handleMapClick = (latlng) => {
     console.log('Guess:', latlng)
+    
   }
 
   const imageHeight = mapExpanded ? '20vh' : '60vh'
@@ -56,101 +58,18 @@ export default function App() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
-
-      {/* Photo */}
-      <div style={{ 
-        height: imageHeight,
-        transition: 'height 0.3s ease',
-        display: 'flex', 
-        alignItems: 'center', 
-        justifyContent: 'center',
-        backgroundColor: '#1a1a2e',
-        flexShrink: 0,
-        padding: '16px',
-        gap: '16px',
-      }}>
-        <img
-          src={currentSpot.imageUrl}
-          alt={currentSpot.id}
-          style={{ 
-            height: '100%', 
-            maxWidth: '70%',
-            objectFit: 'contain',
-            border: '3px solid #ffffff22',
-            borderRadius: '8px',
-            boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
-          }}
-        />
-        <div style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '12px',
-          color: 'white',
-        }}>
-          <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{currentSpot.id}</span>
-          <span style={{ fontSize: '0.85rem', opacity: 0.5 }}>Où est-ce ?</span>
-          <button 
-            onClick={() => pickRandom(spots)}
-            style={{
-              marginTop: '8px',
-              padding: '10px 18px',
-              backgroundColor: '#cc1f12',
-              color: 'white',
-              border: '1px solid #ffffff44',
-              borderRadius: '20px',
-              cursor: 'pointer',
-              fontSize: '0.85rem',
-            }}
-            onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
-            onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
-          >
-            ⏭ Pass
-          </button>
-        </div>
-      </div>
-
-      {/* Expand button bar */}
-      <div style={{
-        backgroundColor: '#12122a',
-        display: 'flex',
-        justifyContent: 'center',
-        padding: '6px',
-        flexShrink: 0,
-      }}>
-        <button
-          onClick={() => setMapExpanded(!mapExpanded)}
-          style={{
-            backgroundColor: '#ffffff15',
-            color: 'white',
-            border: 'none',
-            borderRadius: '12px',
-            padding: '4px 16px',
-            cursor: 'pointer',
-            fontSize: '0.8rem',
-          }}
-          onMouseEnter={e => e.target.style.backgroundColor = '#ffffff30'}
-          onMouseLeave={e => e.target.style.backgroundColor = '#ffffff15'}
-        >
-          {mapExpanded ? ' ▼Reduce map' : '▲ Extend map'}
-        </button>
-      </div>
-
-      {/* Map */}
-      <div style={{ height: mapHeight, transition: 'height 0.3s ease' }}>
-        <MapContainer
-          center={CAMPUS_CENTER}
-          zoom={17}
-          style={{ height: '100%', width: '100%' }}
-        >
-          <TileLayer
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-            attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>'
-          />
-          <ClickHandler onMapClick={handleMapClick} />
-        </MapContainer>
-      </div>
-
+      <ImagePanel
+        spot={currentSpot}
+        onPass={() => pickRandom(spots)}
+        imageHeight={imageHeight}
+      />
+      <Map
+        key={currentSpot.id}
+        onMapClick={handleMapClick}
+        mapHeight={mapHeight}
+        expanded={mapExpanded}
+        onToggleExpand={() => setMapExpanded(!mapExpanded)}
+      />
     </div>
   )
 }
