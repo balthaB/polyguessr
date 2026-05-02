@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet'
 
 const CAMPUS_CENTER = [46.5197, 6.5665]
-
-// Spots hors campus à exclure
 const EXCLUDED = ['#77', '#164']
 
 function extractImageUrl(description) {
@@ -21,6 +19,7 @@ function ClickHandler({ onMapClick }) {
 export default function App() {
   const [spots, setSpots] = useState([])
   const [currentSpot, setCurrentSpot] = useState(null)
+  const [mapExpanded, setMapExpanded] = useState(false)
 
   useEffect(() => {
     fetch('/spots.geojson')
@@ -34,7 +33,7 @@ export default function App() {
             lng: f.geometry.coordinates[0],
             imageUrl: extractImageUrl(f.properties.description),
           }))
-          .filter(s => s.imageUrl) // garder seulement ceux avec une image
+          .filter(s => s.imageUrl)
 
         setSpots(parsed)
         pickRandom(parsed)
@@ -50,68 +49,108 @@ export default function App() {
     console.log('Guess:', latlng)
   }
 
-  if (!currentSpot) return <p>Chargement...</p>
+  const imageHeight = mapExpanded ? '20vh' : '60vh'
+  const mapHeight = mapExpanded ? '80vh' : '30vh'
+
+  if (!currentSpot) return <p>Processing...</p>
 
   return (
-    <div style={{ 
-      height: '40vh', 
-      display: 'flex', 
-      alignItems: 'center', 
-      justifyContent: 'center',
-      backgroundColor: '#1a1a2e',
-      flexShrink: 0,
-      padding: '16px',
-      gap: '16px',
-    }}>
-      {currentSpot && (
-        <>
-          <img
-            src={currentSpot.imageUrl}
-            alt={currentSpot.id}
-            style={{ 
-              height: '100%', 
-              maxWidth: '70%',
-              objectFit: 'contain',
-              border: '3px solid #ffffff22',
-              borderRadius: '8px',
-              boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+
+      {/* Photo */}
+      <div style={{ 
+        height: imageHeight,
+        transition: 'height 0.3s ease',
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'center',
+        backgroundColor: '#1a1a2e',
+        flexShrink: 0,
+        padding: '16px',
+        gap: '16px',
+      }}>
+        <img
+          src={currentSpot.imageUrl}
+          alt={currentSpot.id}
+          style={{ 
+            height: '100%', 
+            maxWidth: '70%',
+            objectFit: 'contain',
+            border: '3px solid #ffffff22',
+            borderRadius: '8px',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
+          }}
+        />
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '12px',
+          color: 'white',
+        }}>
+          <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{currentSpot.id}</span>
+          <span style={{ fontSize: '0.85rem', opacity: 0.5 }}>Où est-ce ?</span>
+          <button 
+            onClick={() => pickRandom(spots)}
+            style={{
+              marginTop: '8px',
+              padding: '10px 18px',
+              backgroundColor: '#cc1f12',
+              color: 'white',
+              border: '1px solid #ffffff44',
+              borderRadius: '20px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
             }}
-          />
-          <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: '12px',
+            onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
+            onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
+          >
+            ⏭ Pass
+          </button>
+        </div>
+      </div>
+
+      {/* Expand button bar */}
+      <div style={{
+        backgroundColor: '#12122a',
+        display: 'flex',
+        justifyContent: 'center',
+        padding: '6px',
+        flexShrink: 0,
+      }}>
+        <button
+          onClick={() => setMapExpanded(!mapExpanded)}
+          style={{
+            backgroundColor: '#ffffff15',
             color: 'white',
-          }}>
-            <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>
-              {currentSpot.id}
-            </span>
-            <span style={{ fontSize: '0.85rem', opacity: 0.5 }}>
-              Où est-ce ?
-            </span>
-            <button 
-              onClick={() => pickRandom(spots)}
-              style={{
-                marginTop: '8px',
-                padding: '10px 18px',
-                backgroundColor: 'transparent',
-                color: 'white',
-                border: '1px solid #ffffff44',
-                borderRadius: '20px',
-                cursor: 'pointer',
-                fontSize: '0.85rem',
-                transition: 'all 0.2s',
-              }}
-              onMouseEnter={e => e.target.style.backgroundColor = '#ffffff22'}
-              onMouseLeave={e => e.target.style.backgroundColor = 'transparent'}
-            >
-              ⏭ Pass
-            </button>
-          </div>
-        </>
-      )}
+            border: 'none',
+            borderRadius: '12px',
+            padding: '4px 16px',
+            cursor: 'pointer',
+            fontSize: '0.8rem',
+          }}
+          onMouseEnter={e => e.target.style.backgroundColor = '#ffffff30'}
+          onMouseLeave={e => e.target.style.backgroundColor = '#ffffff15'}
+        >
+          {mapExpanded ? ' ▼Reduce map' : '▲ Extend map'}
+        </button>
+      </div>
+
+      {/* Map */}
+      <div style={{ height: mapHeight, transition: 'height 0.3s ease' }}>
+        <MapContainer
+          center={CAMPUS_CENTER}
+          zoom={17}
+          style={{ height: '100%', width: '100%' }}
+        >
+          <TileLayer
+            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>'
+          />
+          <ClickHandler onMapClick={handleMapClick} />
+        </MapContainer>
+      </div>
+
     </div>
-    
   )
 }
