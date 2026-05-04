@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import ImagePanel from './components/ImagePanel'
 import Map from './components/Map'
+import L from 'leaflet'
 
 const CAMPUS_CENTER = [46.5197, 6.5665]
 const EXCLUDED = ['#77', '#164']
@@ -21,6 +22,9 @@ export default function App() {
   const [spots, setSpots] = useState([])
   const [currentSpot, setCurrentSpot] = useState(null)
   const [mapExpanded, setMapExpanded] = useState(false)
+  const [guess, setGuess] = useState(null)
+  const [showResult, setShowResult] = useState(false)
+  const [score, setScore] = useState(null)
 
   useEffect(() => {
     fetch('/spots.geojson')
@@ -44,11 +48,23 @@ export default function App() {
   function pickRandom(list) {
     const spot = list[Math.floor(Math.random() * list.length)]
     setCurrentSpot(spot)
+    setGuess(null)
+    setShowResult(false)
+    setScore(null)
   }
 
   const handleMapClick = (latlng) => {
-    console.log('Guess:', latlng)
-    
+    setGuess([latlng.lat, latlng.lng])
+  }
+
+  function calculateScore() {
+    const distance = L.latLng(guess).distanceTo([currentSpot.lat, currentSpot.lng])
+    const score = Math.max(0, Math.min(100, Math.floor(105 - distance)))
+    setScore(score)
+  }
+
+  function handleGuess() {
+    setShowResult(true)
   }
 
   const imageHeight = mapExpanded ? '20vh' : '60vh'
@@ -62,6 +78,8 @@ export default function App() {
         spot={currentSpot}
         onPass={() => pickRandom(spots)}
         imageHeight={imageHeight}
+        onGuess={() => handleGuess()}
+        guess={guess}
       />
       <Map
         key={currentSpot.id}
@@ -69,6 +87,9 @@ export default function App() {
         mapHeight={mapHeight}
         expanded={mapExpanded}
         onToggleExpand={() => setMapExpanded(!mapExpanded)}
+        guess={guess}
+        currentSpot={currentSpot}
+        showResult={showResult}
       />
     </div>
   )
