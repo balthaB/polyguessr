@@ -16,7 +16,7 @@ const guessIcon = divIcon({
             fill="#cc1f12" stroke="white" stroke-width="1.5"/>
         <circle cx="12" cy="12" r="4" fill="white"/>
     </svg>`,
-    iconAnchor: [12, 36],  // ← tip of the pin touches the clicked point
+    iconAnchor: [12, 36],
     iconSize: [24, 36],
 })
 
@@ -30,7 +30,7 @@ export default function GameMap({ key, onMapClick, mapHeight, expanded, onToggle
 
     return (
         <>
-        {/* Expand button bar */}
+        {/* Expand button */}
         <div style={{
             backgroundColor: '#12122a',
             display: 'flex',

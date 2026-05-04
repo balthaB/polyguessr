@@ -14,7 +14,7 @@ export default function ImagePanel({ spot, onPass, imageHeight}) {
       <img
         src={spot.imageUrl}
         alt={spot.id}
-        style={{ 
+        style={{
           height: '100%', 
           maxWidth: '70%',
           objectFit: 'contain',
@@ -25,7 +25,6 @@ export default function ImagePanel({ spot, onPass, imageHeight}) {
       />
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', color: 'white' }}>
         <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{spot.id}</span>
-        <span style={{ fontSize: '0.85rem', opacity: 0.5 }}>Où est-ce ?</span>
         <button 
           onClick={onPass}
           style={{
