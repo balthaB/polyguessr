@@ -22,23 +22,25 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess }
       }}>
         
         <span>{spot.id}</span>
-        <button 
-          onClick={onPass}
+        <button
+          disabled={!guess}
+          onClick={onGuess}
           style={{
             marginTop: '8px',
             padding: '10px 18px',
-            backgroundColor: '#cc1f12',
+            backgroundColor: guess ? '#cc1f12' : '#cc1f1222',
             color: 'white',
             border: '1px solid #ffffff44',
             borderRadius: '20px',
-            cursor: 'pointer',
             fontSize: '0.85rem',
+            cursor: guess ? 'pointer' : 'not-allowed',
           }}
-          onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
-          onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
+          onMouseOver={e => { if(guess) e.target.style.backgroundColor = 'transparent' }}
+          onMouseOut={e => { if(guess) e.target.style.backgroundColor = '#cc1f12' }}
         >
-          ⏭ Pass
+          Guess
         </button>
+
 
       </div>
       <img
@@ -60,23 +62,23 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess }
         height: '100%', 
         gap: '8px', 
         color: 'white' }}>
-        <button
-          disabled={!guess}
-          onClick={onGuess}
+        
+        <button 
+          onClick={onPass}
           style={{
             marginTop: '8px',
             padding: '10px 18px',
-            backgroundColor: guess ? '#cc1f12' : '#cc1f1222',
+            backgroundColor: '#cc1f12',
             color: 'white',
             border: '1px solid #ffffff44',
             borderRadius: '20px',
+            cursor: 'pointer',
             fontSize: '0.85rem',
-            cursor: guess ? 'pointer' : 'not-allowed',
           }}
-          onMouseOver={e => { if(guess) e.target.style.backgroundColor = 'transparent' }}
-          onMouseOut={e => { if(guess) e.target.style.backgroundColor = '#cc1f12' }}
+          onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
+          onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
         >
-          Guess
+          ⏭ Pass
         </button>
       </div>
     </div>

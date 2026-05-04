@@ -51,6 +51,7 @@ export default function App() {
     setGuess(null)
     setShowResult(false)
     setScore(null)
+    setMapExpanded(false)
   }
 
   const handleMapClick = (latlng) => {
@@ -67,8 +68,8 @@ export default function App() {
     setShowResult(true)
   }
 
-  const imageHeight = mapExpanded ? '20vh' : '60vh'
-  const mapHeight = mapExpanded ? '80vh' : '30vh'
+  const imageHeight = mapExpanded ? '30vh' : '50vh'
+  const mapHeight = mapExpanded ? '70vh' : '50vh'
 
   if (!currentSpot) return <p>Processing...</p>
 
