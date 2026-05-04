@@ -1,30 +1,27 @@
 export default function ImagePanel({ spot, onPass, imageHeight}) {
     return (
-        <div style={{ 
-      height: imageHeight,
-      transition: 'height 0.3s ease',
-      display: 'flex', 
-      alignItems: 'center', 
-      justifyContent: 'center',
-      backgroundColor: '#1a1a2e',
-      flexShrink: 0,
-      padding: '16px',
-      gap: '16px',
-    }}>
-      <img
-        src={spot.imageUrl}
-        alt={spot.id}
-        style={{
-          height: '100%', 
-          maxWidth: '70%',
-          objectFit: 'contain',
-          border: '3px solid #ffffff22',
-          borderRadius: '8px',
-          boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
-        }}
-      />
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', color: 'white' }}>
-        <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{spot.id}</span>
+      <div style={{ 
+        height: imageHeight,
+        transition: 'height 0.3s ease',
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'center',
+        backgroundColor: '#1a1a2e',
+        flexShrink: 0,
+        padding: '16px',
+        gap: '16px',
+      }}>
+      <div style={{ 
+        height: '100%',  
+        fontSize: '1.4rem', 
+        fontWeight: 'bold', 
+        display: 'flex', 
+        flexDirection: 'column', 
+        justifyContent: 'flex-end', 
+        color: '#ffffffaa',
+      }}>
+        
+        <span>{spot.id}</span>
         <button 
           onClick={onPass}
           style={{
@@ -42,6 +39,22 @@ export default function ImagePanel({ spot, onPass, imageHeight}) {
         >
           ⏭ Pass
         </button>
+
+      </div>
+      <img
+        src={spot.imageUrl}
+        alt={spot.id}
+        style={{
+          height: '100%', 
+          maxWidth: '70%',
+          objectFit: 'contain',
+          border: '3px solid #ffffff22',
+          borderRadius: '8px',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
+        }}
+      />
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', color: 'white' }}>
+        
       </div>
     </div>
     )

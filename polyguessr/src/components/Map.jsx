@@ -20,7 +20,7 @@ const guessIcon = divIcon({
     iconSize: [24, 36],
 })
 
-export default function GameMap({ key, onMapClick, mapHeight, expanded, onToggleExpand }) {
+export default function GameMap({onMapClick, mapHeight, expanded, onToggleExpand }) {
     const [markerPos, setMarkerPos] = useState(null)
     
     function handleClick(latlng) {
