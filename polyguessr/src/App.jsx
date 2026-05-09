@@ -24,6 +24,7 @@ export default function App() {
   const [mapExpanded, setMapExpanded] = useState(false)
   const [guess, setGuess] = useState(null)
   const [showResult, setShowResult] = useState(false)
+  const [distance, setDistance] = useState(null)
   const [score, setScore] = useState(null)
 
   useEffect(() => {
@@ -58,13 +59,18 @@ export default function App() {
     setGuess([latlng.lat, latlng.lng])
   }
 
-  function calculateScore() {
-    const distance = L.latLng(guess).distanceTo([currentSpot.lat, currentSpot.lng])
-    const score = Math.max(0, Math.min(100, Math.floor(105 - distance)))
-    setScore(score)
+  function calculateDistance() {
+    return L.latLng(guess).distanceTo([currentSpot.lat, currentSpot.lng])
+  }
+
+  function calculateScore(distance) {
+    return Math.max(0, Math.min(100, Math.floor(105 - distance)))
   }
 
   function handleGuess() {
+    const distance = calculateDistance()
+    setDistance(Math.round(distance))
+    setScore(calculateScore(distance))
     setShowResult(true)
   }
 
@@ -83,7 +89,6 @@ export default function App() {
         guess={guess}
       />
       <Map
-        key={currentSpot.id}
         onMapClick={handleMapClick}
         mapHeight={mapHeight}
         expanded={mapExpanded}
@@ -91,6 +96,8 @@ export default function App() {
         guess={guess}
         currentSpot={currentSpot}
         showResult={showResult}
+        distance = {distance}
+        score={score}
       />
     </div>
   )

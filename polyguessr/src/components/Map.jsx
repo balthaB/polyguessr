@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MapContainer, TileLayer, useMapEvents, Marker, Polyline } from 'react-leaflet'
+import { MapContainer, TileLayer, useMapEvents, Marker, Polyline, Popup } from 'react-leaflet'
 import { divIcon } from 'leaflet'
 
 function ClickHandler({ onMapClick }) {
@@ -31,11 +31,11 @@ const resultIcon = divIcon({
     iconSize: [24, 36],
 })
 
-export default function GameMap({onMapClick, mapHeight, expanded, onToggleExpand, guess, currentSpot, showResult}) {
-    const [markerPos, setMarkerPos] = useState(null)
-    
+export default function GameMap({onMapClick, mapHeight, expanded, onToggleExpand, guess, currentSpot, showResult, distance, score}) {
+    const boxSize = distance < 50 ? '1.2rem' : distance < 200 ? '0.95rem' : '0.75rem'
+    const boxPadding = distance < 50 ? '2px 4px' : distance < 200 ? '8px 12px' : '6px 10px'
+
     function handleClick(latlng) {
-        setMarkerPos(latlng)
         onMapClick(latlng)
     }
 
@@ -76,16 +76,35 @@ export default function GameMap({onMapClick, mapHeight, expanded, onToggleExpand
                     maxZoom={24}
                 />
                 <ClickHandler onMapClick={handleClick} />
-                {markerPos && <Marker position={markerPos} icon={guessIcon} />}
-
-                {showResult && currentSpot && <>
-                    <Marker position= {[currentSpot.lat, currentSpot.lng]} icon={resultIcon}/>
-                    <Polyline
+                {guess && <Marker position={guess} icon={guessIcon} />}
+                {showResult && currentSpot && distance !== null&& (
+                    <>
+                        <Marker position={[currentSpot.lat, currentSpot.lng]} />
+                        <Polyline
                         positions={[guess, [currentSpot.lat, currentSpot.lng]]}
-                        pathOptions={{ color: '#cc1f12aa', weight: 2, dashArray: '6 6'}}
-                    />
+                        pathOptions={{ color: '#cc1f12', weight: 2, dashArray: '6 6' }}
+                        />
+                        <div style={{
+                            position: 'absolute',
+                            top: '50%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            background: '#1a1a2e',
+                            color: 'white',
+                            padding: boxPadding,
+                            borderRadius: '8px',
+                            border: '1px solid #ffffff33',
+                            whiteSpace: 'nowrap',
+                            fontSize: boxSize,
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.4)',
+                            zIndex: 1000,  // ← above the map
+                            pointerEvents: 'none',  // ← clicks go through to the map
+                            }}>
+                            📍 {distance}m &nbsp;|&nbsp; ⭐ {score} pts
+                        </div>
+                    </>
+                    )}
 
-                </>}
             </MapContainer>
         </div>
         </>
