@@ -87,6 +87,7 @@ export default function App() {
         imageHeight={imageHeight}
         onGuess={() => handleGuess()}
         guess={guess}
+        showResult={showResult}
       />
       <Map
         onMapClick={handleMapClick}

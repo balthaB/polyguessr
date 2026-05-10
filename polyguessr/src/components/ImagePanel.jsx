@@ -1,4 +1,4 @@
-export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess }) {
+export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, showResult }) {
     return (
       <div style={{ 
         height: imageHeight,
@@ -23,20 +23,20 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess }
         
         <span>{spot.id}</span>
         <button
-          disabled={!guess}
+          disabled={!(guess && !showResult)}
           onClick={onGuess}
           style={{
             marginTop: '8px',
             padding: '10px 18px',
-            backgroundColor: guess ? '#cc1f12' : '#cc1f1222',
+            backgroundColor: (guess && !showResult) ? '#cc1f12' : '#cc1f1222',
             color: 'white',
             border: '1px solid #ffffff44',
             borderRadius: '20px',
             fontSize: '0.85rem',
-            cursor: guess ? 'pointer' : 'not-allowed',
+            cursor: (guess && !showResult) ? 'pointer' : 'not-allowed',
           }}
-          onMouseOver={e => { if(guess) e.target.style.backgroundColor = 'transparent' }}
-          onMouseOut={e => { if(guess) e.target.style.backgroundColor = '#cc1f12' }}
+          onMouseOver={e => { if((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
+          onMouseOut={e => { if((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
         >
           Guess
         </button>

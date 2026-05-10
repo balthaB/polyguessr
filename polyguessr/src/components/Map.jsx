@@ -75,7 +75,7 @@ export default function GameMap({onMapClick, mapHeight, expanded, onToggleExpand
                     attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                     maxZoom={24}
                 />
-                <ClickHandler onMapClick={handleClick} />
+                {!showResult && <ClickHandler onMapClick={handleClick} />}
                 {guess && <Marker position={guess} icon={guessIcon} />}
                 {showResult && currentSpot && distance !== null&& (
                     <>
