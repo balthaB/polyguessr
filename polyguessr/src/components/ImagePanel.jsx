@@ -22,25 +22,6 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
       }}>
         
         <span>{spot.id}</span>
-        <button
-          disabled={!(guess && !showResult)}
-          onClick={onGuess}
-          style={{
-            marginTop: '8px',
-            padding: '10px 18px',
-            backgroundColor: (guess && !showResult) ? '#cc1f12' : '#cc1f1222',
-            color: 'white',
-            border: '1px solid #ffffff44',
-            borderRadius: '20px',
-            fontSize: '0.85rem',
-            cursor: (guess && !showResult) ? 'pointer' : 'not-allowed',
-          }}
-          onMouseOver={e => { if((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
-          onMouseOut={e => { if((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
-        >
-          Guess
-        </button>
-
 
       </div>
       <img
@@ -63,6 +44,7 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
         gap: '8px', 
         color: 'white' }}>
         
+        
         <button 
           onClick={onPass}
           style={{
@@ -79,6 +61,24 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
           onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
         >
           ⏭ Pass
+        </button>
+        <button
+          disabled={!(guess && !showResult)}
+          onClick={onGuess}
+          style={{
+            marginTop: '8px',
+            padding: '10px 18px',
+            backgroundColor: (guess && !showResult) ? '#cc1f12' : '#cc1f1222',
+            color: 'white',
+            border: '1px solid #ffffff44',
+            borderRadius: '20px',
+            fontSize: '0.85rem',
+            cursor: (guess && !showResult) ? 'pointer' : 'not-allowed',
+          }}
+          onMouseOver={e => { if((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
+          onMouseOut={e => { if((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
+        >
+          Guess
         </button>
       </div>
     </div>
