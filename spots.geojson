@@ -1,0 +1,2646 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.569693,
+          46.521192
+        ],
+        "type": "Point"
+      },
+      "properties": {},
+      "id": "TjJFL"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568739,
+          46.520287
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#1",
+        "description": "@bxssxm : Étage 2 du CE, prendre les escaliers niveau sat, aller tout droit puis à droite. C'est presque derrière l'arcadie\n28/02/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%231.png\" width=\"300\">"
+      },
+      "id": "irZJh"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566239,
+          46.520662
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#2",
+        "description": "@ev.a_ld : La table de ping-pong ou on a joué à côté de lagep\n02/02/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%232.png\" width=\"300\">"
+      },
+      "id": "cLl7A"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567807,
+          46.520264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#3",
+        "description": "@arsene_leb : Entre cm et ce vers le bâtiment maths\n03/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%233.png\" width=\"300\">"
+      },
+      "id": "8uX4K"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566505,
+          46.520555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#4",
+        "description": "@bxssxm : Le couloir à l'entrée du CM0 (celle du côté du parking)\n04/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%234.png\" width=\"300\">"
+      },
+      "id": "gCjG0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.572142,
+          46.51987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#5",
+        "description": "@bxssxm : Une des façades du batochime, mais je suis vraiment pas sur\n05/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%235.png\" width=\"300\">"
+      },
+      "id": "momMG"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565647,
+          46.520181
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#6",
+        "description": "@arsene_leb : Sous sol du parking du co\n06/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%236.png\" width=\"300\">"
+      },
+      "id": "YWBBX"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.569843,
+          46.5199118
+        ]
+      },
+      "properties": {
+        "name": "#7",
+        "description": "@hugo_gny : 46.5199118, 6.5698437\n07/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%237.png\" width=\"300\">"
+      },
+      "id": "yHVPB"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571616,
+          46.519308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#8",
+        "description": "@vic.rtw : Le bâtiment en face du batichime (au dessus de la garderie) ?\n08/08/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%238.png\" width=\"300\">"
+      },
+      "id": "2vQKi"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570322,
+          46.520256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#9",
+        "description": "@vic.rtw : Quand tu sors du ce1 3 tu descends les marches en pierre, tu tournes à gauche et il y a une cour intérieure avec un échafaudage et des poubelles, c'est sur la droite\n10/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%239.png\" width=\"300\">"
+      },
+      "id": "yDCUS"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.57067,
+          46.51999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#10",
+        "description": "@vic.rtw : Dans le chemin des alambics (sud est du CE), N 46.519963, E 6.570663\n12/03/2025\n    <img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2310.png\" width=\"300\">"
+      },
+      "id": "rE3dQ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570948,
+          46.520288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#11",
+        "description": "@vic.rtw : Parking presque en dessous de la passerelle entre le ce et le bs, devant la station 4\n13/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2311.png\" width=\"300\">"
+      },
+      "id": "syvC8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566155,
+          46.519906
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#12",
+        "description": "@ardi.cerk : le sorte de tunnel qui mene au bunker/abri pc/salle de musique?\n14/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2312.png\" width=\"300\">"
+      },
+      "id": "sRl0s"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563761,
+          46.518421
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#13",
+        "description": "@ardi.cerk : toit de l'INJ?\n17/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2313.png\" width=\"300\">"
+      },
+      "id": "kjfU9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56933,
+          46.519697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#14",
+        "description": "@vic.rtw : L’escalier qui descend dans le passage entre le rolex et le bâtiment multicolore, dehors coté est de l’épicure ?\n18/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2314.png\" width=\"300\">"
+      },
+      "id": "z6750"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.5628,
+          46.519589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#15",
+        "description": "@victorlancieux : It’s MXG seen from a bridge to MXD.\n19/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2315.png\" width=\"300\">"
+      },
+      "id": "GwvcX"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562676,
+          46.518579
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#16",
+        "description": "@falci_g_ : Dehors en bas du BC, coté Rolex\n21/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2316.png\" width=\"300\"> "
+      },
+      "id": "RV7HO"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564696,
+          46.517158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#17",
+        "description": "@victorlancieux : Maybe, in the EPFL Swiss plasma center (PPB) ?\n24/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2317.png\" width=\"300\">"
+      },
+      "id": "ZG1Rf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564499,
+          46.519525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#18",
+        "description": "@arsene_leb : Hummm la pièce à côté de l’amphi ela 2 ?\n25/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2318.png\" width=\"300\">"
+      },
+      "id": "3NGQU"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564696,
+          46.517082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#19",
+        "description": "@lucaa.snt : PPB en dessous, chez fréquence 🍌\n26/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2319.png\" width=\"300\">"
+      },
+      "id": "92A43"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562676,
+          46.519655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#20",
+        "description": "@vic.rtw : A l'intérieur du bâtiment MXE, étage 0 ou 1 en regardant vers l'ouest ?\n27/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2320.png\" width=\"300\">"
+      },
+      "id": "bTtQ1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563612,
+          46.518332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#21",
+        "description": "@arsene_leb : Couloir du bat inj (3e)\n28/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2321.png\" width=\"300\">"
+      },
+      "id": "aplRU"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570724,
+          46.519318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#22",
+        "description": "@bxssxm : Sur la route des noyerettes, premier bâtiment qui se trouve à droite (quand on met le bâtiment RTS à gauche)\n31/03/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2322.png\" width=\"300\">"
+      },
+      "id": "Eglnd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.583345,
+          46.520834
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#23",
+        "description": "@victorlancieux : It’s after the “round point”, and before the south entry of UNIL (the entry for cars, which goes to Dorigny).\n01/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2323.png\" width=\"300\">"
+      },
+      "id": "WCFCy"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564845,
+          46.517167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#24",
+        "description": "@vic.rtw : Cafétéria du PPB\n02/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2324.png\" width=\"300\">"
+      },
+      "id": "EC64x"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562979,
+          46.519415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#25",
+        "description": "@ardi.cerk : le chemin entre le MXD et le MXG?\n03/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2325.png\" width=\"300\">"
+      },
+      "id": "apzEV"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564067,
+          46.519665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#26",
+        "description": "@bxssxm : MXC094.1, je re commente au cas où. Shoutout @gab_bnftm24 @ olivier pour l'aide :D\n04/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2326.png\" width=\"300\">"
+      },
+      "id": "iS4j6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562692,
+          46.519635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#27",
+        "description": "@vic.rtw : Sous sol du bâtiment MX ?\n07/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2327.png\" width=\"300\">"
+      },
+      "id": "qVo6w"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564131,
+          46.517012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#28",
+        "description": "@nobeljaison : PPB building before the road\n08/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2328.png\" width=\"300\">"
+      },
+      "id": "cUVc5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565771,
+          46.520056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#29",
+        "description": "@arsene_leb : Parking esplanade entre la dechetterie et l’entrée sous-sol CO\n09/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2329.png\" width=\"300\">"
+      },
+      "id": "aoXGj"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56261,
+          46.518598
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#30",
+        "description": "@bxssxm : La terrasse accessible à partir de l'étage 0 du BC, qui est entourée par le BC et INM/INJ/d'autres bâtiments IN\n10/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2330.png\" width=\"300\">"
+      },
+      "id": "WLHdc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.567867,
+          46.5181
+        ]
+      },
+      "properties": {
+        "name": "#31",
+        "description": "@emmanuel.3943 : 46.518100, 6.567867\n11/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2331.png\" width=\"300\">"
+      },
+      "id": "paL97"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561922,
+          46.518641
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#32",
+        "description": "@ardi.cerk : le bc!!\n14/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2332.png\" width=\"300\">"
+      },
+      "id": "vAsVM"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.572161,
+          46.520206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#33",
+        "description": "@memisege\n15/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2333.png\" width=\"300\">"
+      },
+      "id": "yaFfx"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561622,
+          46.519077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#34",
+        "description": "@ardi.cerk : l'horloge solaire derrière le MXH, sur l'avenue JR Perronet, juste après le parking du bc?\n16/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2334.png\" width=\"300\">"
+      },
+      "id": "ugEs0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570457,
+          46.519416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#35",
+        "description": "@tachmakia : Le bout du batiment CH\n17/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2335.png\" width=\"300\">"
+      },
+      "id": "Ousuc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562411,
+          46.518586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#36",
+        "description": "@ardi.cerk : le parking du bc! quoique, cest techniquement le parking sous INM\n28/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2336.png\" width=\"300\">"
+      },
+      "id": "ktV2V"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567024,
+          46.519361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#37",
+        "description": "@falci_g_ : Entrée du bâtiment MED, étage 0, à droite\n29/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2337.png\" width=\"300\">"
+      },
+      "id": "nPy7v"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563742,
+          46.519658
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#38",
+        "description": "@vic.rtw : Le bassin au sous sol du MX\n30/04/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2338.png\" width=\"300\">"
+      },
+      "id": "u9fJj"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565313,
+          46.518926
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#39",
+        "description": "@arsene_leb : C est au spot\n01/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2339.png\" width=\"300\">"
+      },
+      "id": "xWAaN"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562058,
+          46.518735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#40",
+        "description": "@bxssxm : Douche au sous sol du BC\n02/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2340.png\" width=\"300\">"
+      },
+      "id": "EB7ni"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.571021,
+          46.521851
+        ]
+      },
+      "properties": {
+        "name": "#41",
+        "description": "@janis.hermann : 46.521851,6.571021 CCT\n05/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2341.png\" width=\"300\">"
+      },
+      "id": "k2smV"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564326,
+          46.518977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#42",
+        "description": "@arsene_leb : Banc entre ela et ele/eld\n06/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2342.png\" width=\"300\">"
+      },
+      "id": "yhHt0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570831,
+          46.520418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#43",
+        "description": "@arsene_leb : Porte pour rentrer en bas du ce16\n07/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2343.png\" width=\"300\">"
+      },
+      "id": "YGAUf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561846,
+          46.518763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#44",
+        "description": "@tachmakia : Bc a l'entree\n08/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2344.png\" width=\"300\">"
+      },
+      "id": "pOi1Y"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571969,
+          46.519428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#45",
+        "description": "@vic.rtw : Au rez de chaussée devant le batochime ?\n09/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2345.png\" width=\"300\">"
+      },
+      "id": "G4992"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564965,
+          46.52045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#46",
+        "description": "@arsene_leb : Entre sous sol esplanade et sg\n12/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2346.png\" width=\"300\">"
+      },
+      "id": "hMbjt"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.569048,
+          46.518759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#47",
+        "description": "@vic.rtw : Sous sol de la section maths du rolex\n13/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2347.png\" width=\"300\">"
+      },
+      "id": "4t2NF"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570428,
+          46.519768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#48",
+        "description": "@hydremoule_50701 : toit du CH?\n14/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2348.png\" width=\"300\">"
+      },
+      "id": "qfjCJ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566724,
+          46.521626
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#49",
+        "description": "@bxssxm : L'atelier GC qui se trouve le long de la route de la sorge ?\n15/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2349.png\" width=\"300\">"
+      },
+      "id": "zCsHQ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.569794,
+          46.521393
+        ]
+      },
+      "properties": {
+        "name": "#50",
+        "description": "@vic.rtw : Côté nord du PH orienté nord sur le côté de la route de la sorge (46.521393 , 6.569794)\n16/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2350.png\" width=\"300\">"
+      },
+      "id": "endJh"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566041,
+          46.520574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#51",
+        "description": "@arsene_leb : Toilettes à côté de cm011 ?\n19/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2351.png\" width=\"300\">"
+      },
+      "id": "3qXBw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567334,
+          46.521755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#52",
+        "description": "@ruae.g : C'est l'escalier dans le bâtiment le?\n20/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2352.png\" width=\"300\">"
+      },
+      "id": "2Ibzy"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570076,
+          46.520398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#53",
+        "description": "@arsene_leb : Ce1102\n21/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2353.png\" width=\"300\">"
+      },
+      "id": "eVXBH"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564798,
+          46.521467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#54",
+        "description": "@vic.rtw : 2e ou 3e étage du BP\n22/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2354.png\" width=\"300\">"
+      },
+      "id": "F0C4y"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566557,
+          46.521099
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#55",
+        "description": "@tugdual_kerjan : Chemin du barrage pour aller du SKIL vers le terrain de petanque du GR\n23/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2355.png\" width=\"300\">"
+      },
+      "id": "q4W2D"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570114,
+          46.521231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#56 ",
+        "description": "@bxssxm : Cage d'escaliers PHK (proche du PHL, entre les étages 0 et 1), merci @hilmani_asmaa pour l'indice\n26/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2356.png\" width=\"300\"> "
+      },
+      "id": "VqCUP"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564845,
+          46.521141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#57",
+        "description": "@bxssxm : BP 3e étage, proche du BP3122 (le service informatique), merci @ antoine @ olivier pour l'aide\n27/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2357.png\" width=\"300\">"
+      },
+      "id": "K3V00"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5703754,
+          46.5194545
+        ]
+      },
+      "properties": {
+        "name": "#58",
+        "description": "@baltha_bllt : Bâtiment CH à côté de H 1 604 vers (46.5194545, 6.5703754) sous la sortie des tuyaux\n28/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2358.png\" width=\"300\">"
+      },
+      "id": "PkNqk"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565443,
+          46.520071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#59",
+        "description": "@tachmakia : Espla niveau -1 en passant par les escaliers\n29/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2359.png\" width=\"300\">"
+      },
+      "id": "zPYAs"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570194,
+          46.519699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#60",
+        "description": "@arsene_leb : Chg1 526\n30/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2360.png\" width=\"300\">"
+      },
+      "id": "fXHml"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565105,
+          46.521082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#61",
+        "description": "@ruae.g : bm into bp ❤️🤫\n14/06/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2361.png\" width=\"300\">"
+      },
+      "id": "BwvQf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564027,
+          46.520908
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#62",
+        "description": "@fabnem : SG 👀\n08/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2362.png\" width=\"300\">"
+      },
+      "id": "D3uXD"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5692006,
+          46.5180938
+        ]
+      },
+      "properties": {
+        "name": "#63",
+        "description": "@arsene_leb : Fenêtre rolex (46.5180938, 6.5692006)\n09/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2363.png\" width=\"300\">"
+      },
+      "id": "UWnxT"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564397,
+          46.520613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#64",
+        "description": "@tachmakia : Entre AI et le passage vers le SV\n10/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2364.png\" width=\"300\">"
+      },
+      "id": "WvoGt"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.569681,
+          46.520663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#65",
+        "description": "@tachmakia : Bat PHB niveau 2 vu du CE niveau 2\n11/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2365.png\" width=\"300\">"
+      },
+      "id": "691fl"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565542,
+          46.52144
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#66",
+        "description": "@hydremoule_50701 : Entre le BM et le SKIL ?\n12/09/2025 \n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2366.png\" width=\"300\">"
+      },
+      "id": "LgPyJ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564833,
+          46.519036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#67",
+        "description": "@a_n_a_t_o_l_e_ : 46.5190351, 6.5648353\n15/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2367.png\" width=\"300\">\n"
+      },
+      "id": "QgDev"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56678,
+          46.518437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#68",
+        "description": "@arsene_leb : Logo EPFL ?\n16/05/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2368.png\" width=\"300\">"
+      },
+      "id": "74dQ8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567598,
+          46.520312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#69",
+        "description": "@arsene_leb : Bat math à gauche et au fond à droite bat med\n17/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2369.png\" width=\"300\">"
+      },
+      "id": "ZFN47"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564546,
+          46.521101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#70",
+        "description": "@arsene_leb : Escaliers pour aller vers le métro depuis le SG ?\n18/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2370.png\" width=\"300\">"
+      },
+      "id": "MIwef"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571691,
+          46.518353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#71",
+        "description": "@badrlberri : Odyssea sous sol vers les toilettes\n19/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2371.png\" width=\"300\">"
+      },
+      "id": "EZLVz"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564458,
+          46.519352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#72",
+        "description": "@a_n_a_t_o_l_e_ : ELA 1 ? ou 2, je sais plus lequel est au rez de chausée\n23/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2372.png\" width=\"300\">"
+      },
+      "id": "GRpC0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567882,
+          46.520473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#73",
+        "description": "@tachmakia : La fresque a l'entree du CM vers la place Piccard\n24/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2373.png\" width=\"300\">"
+      },
+      "id": "E94zu"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567759,
+          46.520127
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#74",
+        "description": "@bxssxm : Bâtiment MA étage 0 devant l'entrée de poseidon\n25/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2374.png\" width=\"300\">"
+      },
+      "id": "IiQu7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.5643,
+          46.51913
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#75",
+        "description": "@bxssxm : Ou plutôt l'inverse, EL étage 0 pas loin de DIA\n26/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2375.png\" width=\"300\">"
+      },
+      "id": "LAhdA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565207,
+          46.51889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#76",
+        "description": "@tomjorand : Les panneaux magnétiques en face de la DLL 1 12 ? (non) alors ceux au sous-sol en face de la salle impression 3D\n29/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2376.png\" width=\"300\">"
+      },
+      "id": "53Dp2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          7.361543,
+          46.226826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#77",
+        "description": "@antoine_moix : Devant l'EPFL à Sion. Rue de l'industrie.\n30/09/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2377.png\" width=\"300\">"
+      },
+      "id": "IlEfm"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567833,
+          46.521589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#78",
+        "description": "@baltha_bllt : Au bout du gr à côté du point vélo\n01/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2378.png\" width=\"300\">"
+      },
+      "id": "YeQK2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562234,
+          46.518783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#79",
+        "description": "@badrelberri : BC à côté de l'entrée dehors\n03/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2379.png\" width=\"300\">"
+      },
+      "id": "Wcd6S"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567332,
+          46.521853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#80",
+        "description": "@tachmakia :  46.521635, 6.567350\n03/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2380.png\" width=\"300\">"
+      },
+      "id": "ClyXZ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571608,
+          46.520038
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#81",
+        "description": "@gab_bnftm24 : A côté du chemin des alambics, entre le BS et le GA ?\n06/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2381.png\" width=\"300\">"
+      },
+      "id": "T8exu"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565264,
+          46.521863
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#82",
+        "description": "@arsene_leb : C'est pas dans le bat BM ?\n07/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2382.png\" width=\"300\">"
+      },
+      "id": "t1hgE"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570476,
+          46.519796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#83",
+        "description": "@a_n_a_t_o_l_e_ : Ça serait pas l’escalier qui mène au toit dans le bâtiment CH ? Par contre je saurais pas dire si c’est celui qui est sous l’observatoire ou celui qui mène à la porte, celui de la porte en fait, il me semble pas que l’autre ait des fenêtres\n08/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2383.png\" width=\"300\">"
+      },
+      "id": "Xk5qf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.569784,
+          46.520712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#84",
+        "description": "@tachmakia : Ce niveau 2 côté nord\n10/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2384.png\" width=\"300\">"
+      },
+      "id": "0sZK6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568825,
+          46.520337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#85",
+        "description": "@arsene_leb : C’est pas le restau à l’entré au premier étage de CE ?\n11/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2385.png\" width=\"300\">"
+      },
+      "id": "AF6T9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564554,
+          46.517206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#86",
+        "description": "@tachmakia : ok alors c'est au ppb face ouest\n13/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2386.png\" width=\"300\">"
+      },
+      "id": "KDWIN"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565566,
+          46.518576
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#87",
+        "description": "@arsene_leb : Rue entre le spot et le pavillon le panneau gofast\n14/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2387.png\" width=\"300\">"
+      },
+      "id": "DKUYW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570177,
+          46.520934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#88",
+        "description": "@bxssxm : PH D étage 1?\n15/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2388.png\" width=\"300\">"
+      },
+      "id": "W9Yoj"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571152,
+          46.52055
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#89",
+        "description": "@tachmakia : Chez les pompiers. Sous la passerelle ce-bs pour etre plus precis\n16/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2389.png\" width=\"300\">"
+      },
+      "id": "m5Y86"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562149,
+          46.518544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#90",
+        "description": "@badrelberri : Bc derrière les salles au rez\n17/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2390.png\" width=\"300\">"
+      },
+      "id": "sYlER"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564092,
+          46.518572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#91",
+        "description": "@tachmakia : entre inj et inf\n27/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2391.png\" width=\"300\">"
+      },
+      "id": "52v6B"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565441,
+          46.519392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#92",
+        "description": "@a_n_a_t_o_l_e_ : Je dirais le haut du batiment MED vu à travers des buissons entre ELE et ELB\n28/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2392.png\" width=\"300\">"
+      },
+      "id": "uFB6y"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561559,
+          46.516955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#93",
+        "description": "@gab_bnftm_24 : Innovation Park, à côté du PSED\n29/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2393.png\" width=\"300\">"
+      },
+      "id": "4yKIS"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565358,
+          46.518329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#94",
+        "description": "@badrelberri : SUR ELL FACE A LA ROUTE\n30/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2394.png\" width=\"300\">"
+      },
+      "id": "sPMnA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561418,
+          46.522622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#95",
+        "description": "@tachmakia : C'est l'esplanade bonaparte🔥et c'est le sg qu'on voit\n31/10/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2395.png\" width=\"300\">"
+      },
+      "id": "zDNZ7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564782,
+          46.519418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#96",
+        "description": "@tachmakia : Ela avec vue sur le pavillon/rolex\n03/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2396.png\" width=\"300\">"
+      },
+      "id": "CZbtc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564615,
+          46.516996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#96",
+        "description": "@tachmakia : Le plasma center\n@a_n_a_t_o_l_e_ :  46.5169940, 6.5646234\n04/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2397.png\" width=\"300\">"
+      },
+      "id": "GaBtG"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562311,
+          46.518473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#98",
+        "description": "@baltha_bllt : Escaliers derrière le bc dans la cour au milieu entre bc inr et inn\n05/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2398.png\" width=\"300\">"
+      },
+      "id": "zr44V"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565053,
+          46.517901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#99",
+        "description": "@baltha_bllt : tokamak (tcv)\n06/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%2399.png\" width=\"300\">"
+      },
+      "id": "yWnMF"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564157,
+          46.51851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#100",
+        "description": "@hydremoule_50701 : C'est la face EST du INJ, à côté du SPC et de l'arrêt de bus\n07/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23100.png\" width=\"300\">"
+      },
+      "id": "ySjMF"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566398,
+          46.52206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#101",
+        "description": "@baltha_bllt : C’est le dessous de la passerelle au dessus de la route qui rejoint l’arrêt de métro FLEP (merci la musique)\n10/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23101.png\" width=\"300\">"
+      },
+      "id": "96dd5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562259,
+          46.517773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#102",
+        "description": "@baltha_bllt : L’entrée de parking entre pseb et psea au innovation Park\n11/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23102.png\" width=\"300\">"
+      },
+      "id": "zrrJd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568191,
+          46.52055
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#103",
+        "description": "@arsene_leb : Enseigne Négoce ?\n12/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23103.png\" width=\"300\">"
+      },
+      "id": "zjyGT"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567711,
+          46.520517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#104",
+        "description": "@baltha_bllt : Devant l'entrée de sat entre sat et alpine \n13/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23104.png\" width=\"300\">"
+      },
+      "id": "OHqGW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567685,
+          46.520736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#105",
+        "description": "@gab_bnftm_24 : A côté de l'interlocal et de l'amphi CM 1 1 dehors\n14/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23105.png\" width=\"300\">"
+      },
+      "id": "TWQQH"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56421,
+          46.519619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#106",
+        "description": "@tachmakia : c'est la premiere entree des batiments mx quand on va de l'esplanade vers les batiments infos sur la diagonale, pas loin du churros niveau 0\n17/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23106.png\" width=\"300\">\n"
+      },
+      "id": "AFixp"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564795,
+          46.519527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#107",
+        "description": "@bxssxm : L'intérieur de l'ascenseur en ELA (celui devant les amphis)\n18/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23107.png\" width=\"300\">"
+      },
+      "id": "Rpn9x"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562687,
+          46.517383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#108",
+        "description": "@baltha_bllt : Au Innovation Park Psec 0 01 côté ouest \n19/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23108.png\" width=\"300\">"
+      },
+      "id": "rwnfx"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.561833,
+          46.518738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#109",
+        "description": "@adeliee_teiss : En BC sur les panneaux en bois en entrant à droite ?\n20/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23109.png\" width=\"300\">"
+      },
+      "id": "tdful"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564184,
+          46.517032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#110",
+        "description": "@vlady.yady : 46°31'01.3\"N 6°33'51.0\"E\n21/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23110.png\" width=\"300\">"
+      },
+      "id": "65Szp"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564122,
+          46.52081
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#111",
+        "description": "@arsene_leb : Sous sol de sg ?\n24/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23111.png\" width=\"300\">"
+      },
+      "id": "3WPL0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566024,
+          46.521673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#112",
+        "description": "@baltha_bllt : Gc h -1 672\n25/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23112.png\" width=\"300\">"
+      },
+      "id": "BzBo0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564719,
+          46.521089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#113",
+        "description": "@arsene_leb : Allée pour aller vers le métro depuis co qui passe à côté du parking sg\n26/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23113.png\" width=\"300\">"
+      },
+      "id": "PtwiL"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570184,
+          46.518765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#114",
+        "description": "@baltha_bllt : Restaurant du bâtiment rts ?\n27/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23114.png\" width=\"300\">"
+      },
+      "id": "I6BYg"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567269,
+          46.52152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#115",
+        "description": "@baltha_bllt : c’est le grand poteau dans le carré d’Herbe derrière le bâtiment LE quand tu regardes de puis la route de la sorge juste à côté du LESO\n28/11/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23115.png\" width=\"300\">"
+      },
+      "id": "DdEq3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568086,
+          46.520236
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#116",
+        "description": "@tachmakia : Avenue piccard vers le bat MA sous la structure bizarre\n01/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23116.png\" width=\"300\">"
+      },
+      "id": "0oOqx"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56858,
+          46.519962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#117",
+        "description": "@arsene_leb : chalet de l'avent nord où était chocopoly hier soir\n02/02/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23117.png\" width=\"300\">"
+      },
+      "id": "Suu85"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.5677,
+          46.519302
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#118",
+        "description": "@baltha_bllt : Au coin du MA sud ouest côté rolex med\n03/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23118.png\" width=\"300\">"
+      },
+      "id": "l2mIh"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564873,
+          46.518485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#119",
+        "description": "@bxssxm : Sous l'antenne qui se trouve derrière les bâtiments EL/IN ?\n04/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23119.png\" width=\"300\">"
+      },
+      "id": "NN0up"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564603,
+          46.517265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#120",
+        "description": "@baltha_bllt : A droite à côté de la réception à l'entrée du ppb\n05/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23120.png\" width=\"300\">"
+      },
+      "id": "5qEbO"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.56804,
+          46.519587
+        ]
+      },
+      "properties": {
+        "name": "#121",
+        "description": "@tachmakia : vu que personne n'a encore repondu, je retente ma chance avec  46.519587,6.568040\n08/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23121.png\" width=\"300\">"
+      },
+      "id": "W5Zhs"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.560202,
+          46.517818
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#122",
+        "description": "@gab_bnftm24 : Le PSEL ?\n09/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23122.png\" width=\"300\">"
+      },
+      "id": "tyWfg"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566537,
+          46.520281
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#123",
+        "description": "@arsene_leb : Jardin devant ME C0 324\n10/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23123.png\" width=\"300\">"
+      },
+      "id": "b7CJh"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565392,
+          46.51839
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#124",
+        "description": "@tachmakia : Est ce que c'est l'escalier le long du ELL coté rolex?\n11/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23124.png\" width=\"300\">"
+      },
+      "id": "hEGXD"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567791,
+          46.520563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#125",
+        "description": "@tachmakia : Toit du CM entre le MA et le GR\n12/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23125.png\" width=\"300\">"
+      },
+      "id": "qLiAw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564016,
+          46.519134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#126",
+        "description": "@bxssxm : ELD étage 0? Tu rentres depuis la diagonale et tu prends les escaliers qui sont juste devant la porte pour descendre\n15/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23126.png\" width=\"300\">"
+      },
+      "id": "itFA8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565082,
+          46.519925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#127",
+        "description": "@baltha_bllt : Dans le coin entre co 013 et co 012\n16/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23127.png\" width=\"300\">"
+      },
+      "id": "Hzo59"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563474,
+          46.516229
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#128",
+        "description": "@baltha_bllt : Bâtiment des estudiantines le plus à l’ouest, fenêtre la plus en haut à gauche de la façade ouest ?\n17/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23128.png\" width=\"300\">"
+      },
+      "id": "JZcSo"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567889,
+          46.519623
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#129",
+        "description": "@baltha_bllt : Ma c0 entre l’escalier et l’ascenseur notés MAC0 94.0 et 94.1 avec la sortie à gauche qui donne sur le chemin des machines ?\n18/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23129.png\" width=\"300\">"
+      },
+      "id": "IPiSf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563155,
+          46.519276
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#130",
+        "description": "@mathilde.guyyon : Couloir MXG 1 ?\n19/12/2025\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23130.png\" width=\"300\">"
+      },
+      "id": "JIJUA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56527,
+          46.520885
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#131",
+        "description": "@vic.rtw : Plafond de l'allée sous le BM\n08/01/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23131.png\" width=\"300\">"
+      },
+      "id": "vrdNF"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564843,
+          46.522141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#132",
+        "description": "@baltha_bllt : Tunnel sous le métro côté gauche quand tu viens de flep\n16/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23132.png\" width=\"300\">"
+      },
+      "id": "fM9Ta"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567475,
+          46.522037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#133",
+        "description": "@baltha_bllt : Sur la route de la sorge au niveau de point vélo\n17/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23133.png\" width=\"300\">"
+      },
+      "id": "ti0xA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.563588,
+          46.520912
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#135",
+        "description": "@baltha_bllt : AAC 201\n19/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23135.png\" width=\"300\">"
+      },
+      "id": "DEDPb"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565384,
+          46.520219
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#136",
+        "description": "@arsene_leb : Entrée du CO côté esplanade\n20/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23136.png\" width=\"300\">"
+      },
+      "id": "8GjNl"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568025,
+          46.518205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#137",
+        "description": "@baltha_bllt : La cafete de Klee au rolex\n23/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23137.png\" width=\"300\">"
+      },
+      "id": "0hOxt"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571258,
+          46.519851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#138",
+        "description": "@baltha_bllt : Le porte vélo chemin des alambiques à côté du ga\n24/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23138.png\" width=\"300\">"
+      },
+      "id": "DdFXk"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56444,
+          46.518733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#139",
+        "description": "@baltha_bllt : ELG étage 0 le couloir\n25/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23139.png\" width=\"300\">"
+      },
+      "id": "eXAI7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565825,
+          46.520481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#140",
+        "description": "@hydremoule_50701 : Boutique EPFL ?\n26/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23140.png\" width=\"300\">"
+      },
+      "id": "s9xV1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567941,
+          46.520186
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#141",
+        "description": "@vlady.yady : cafet math, facing north. You can tell thanks to the microwaves\n@arsene_leb : Cafet maths\n27/02/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23141.png\" width=\"300\">"
+      },
+      "id": "GxuVZ"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.570568,
+          46.518451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#143",
+        "description": "@arsene_leb : Bâtiment de la rts à côté du rolex\n03/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23143.png\" width=\"300\">"
+      },
+      "id": "Pia7B"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566396,
+          46.522225
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#144",
+        "description": "@a_n_a_t_o_l_e_ : More over the bridge than under, c’est un des signes qui indiquent de quel côté il faut aller en sortant du métro EPFL, y’en a un au milieu du pont, et un juste avant l’escalier, mais google earth ne me permet pas de savoir lequel c’est exactement\n04/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23144.png\" width=\"300\">"
+      },
+      "id": "piC19"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5651612,
+          46.520853
+        ]
+      },
+      "properties": {
+        "name": "#145",
+        "description": "_.tea.gnv._ : (46.5208530, 6.5651612)\n05/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23145.png\" width=\"300\">"
+      },
+      "id": "O9vpt"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565973,
+          46.523619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#146",
+        "description": "@baltha_bllt : Fmel atrium coin nord est ?\n06/06/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23146.png\" width=\"300\">"
+      },
+      "id": "4JTNq"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564977,
+          46.520255
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#147",
+        "description": "@tachmakia : C'est sur l'espla vers le sv\n09/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23147.png\" width=\"300\">"
+      },
+      "id": "7VL9q"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565786,
+          46.521335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#148",
+        "description": "@tachmakia : C'est le skil?\n10/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23148.png\" width=\"300\">"
+      },
+      "id": "jL23P"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566795,
+          46.521865
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#149",
+        "description": "@baltha_bllt : Derrière le parc à vélo rue de la sorge au niveau du gc\n11/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23149.png\" width=\"300\">"
+      },
+      "id": "fhpbE"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564772,
+          46.519356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#150",
+        "description": "@a_n_a_t_o_l_e_ : Sticker sur une fenêtre à l’intérieur de la passerelle qui mène de ELA ELB à ELD ELE\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23150.png\" width=\"300\">"
+      },
+      "id": "33aOU"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564889,
+          46.517434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#151",
+        "description": "@baltha_bllt : Derrière le tcv côté ppb ?\n13/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%20%23151.png\" width=\"300\">"
+      },
+      "id": "cNtVM"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564454,
+          46.517452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#152",
+        "description": "@vic.rtw : 2e étage du pph bâtiment sud devant l'ascenseur\n16/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23152.png\" width=\"300\">"
+      },
+      "id": "H8J1X"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565851,
+          46.517907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#153",
+        "description": "@baltha_bllt : montreux jazz café au art C0 10\n17/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23153.png\" width=\"300\">"
+      },
+      "id": "bsQiv"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.572297,
+          46.519456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#154",
+        "description": "@baltha_bllt : Ah mais nan en fait c'esu au bch devant l'entrée on voit le le hyperloop\n18/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23154.png\" width=\"300\">"
+      },
+      "id": "dX0ap"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565653,
+          46.520789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#155",
+        "description": "@_hatim_s : GC D 0383\n19/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23155.png\" width=\"300\">"
+      },
+      "id": "I6o3d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565944,
+          46.520856
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#156",
+        "description": "@ale_papaldo : Fond du GC étage zéro dans le couloir proche des escaliers, proche de la GC C0 385\n20/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23156.png\" width=\"300\">"
+      },
+      "id": "Phg8F"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56522,
+          46.521951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#157",
+        "description": "@baltha_bllt : Toît du BM côté métro\n23/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23157.png\" width=\"300\">"
+      },
+      "id": "dl7Qi"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.573139,
+          46.518639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#158",
+        "description": "@tachmakia : Le parking a l'est de l'odyssea\n24/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23158.png\" width=\"300\">"
+      },
+      "id": "Eg3QW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566396,
+          46.517628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#159",
+        "description": "@baltha_bllt : La descente derrière l'agora en allant vers l'hôtel starling\n25/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23159.png\" width=\"300\">"
+      },
+      "id": "VhOvw"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566757,
+          46.520065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 186639273,
+        "osm_key": "building",
+        "osm_value": "university",
+        "type": "house",
+        "postcode": "1015",
+        "countrycode": "CH",
+        "street": "Chemin des Machines",
+        "locality": "Quartier Sorge",
+        "city": "Lausanne",
+        "county": "District de l'Ouest lausannois",
+        "state": "Vaud",
+        "country": "Switzerland",
+        "extent": [
+          6.5666624,
+          46.520276,
+          6.5668553,
+          46.5198973
+        ],
+        "name": "#161",
+        "description": "@a_n_a_t_o_l_e_ : Couloir au rez de chaussée d’un bâtiment ME (soit le B soit le C, j’ai pas les noms en tête). C’est à gauche quand tu sors de l’escalier, en face de l’entrée de l’ATME (les coordonnées doivent être à peu près ça : 46.5201065, 6.5669134)\n27/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23161.png\" width=\"300\">"
+      },
+      "id": "pFBJD"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.571417,
+          46.520629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#162",
+        "description": "@baltha_bllt  : Le hal bs 194.5 à côté de la porte qui va dans le couloir au nord\n30/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23162.png\" width=\"300\">"
+      },
+      "id": "MWzyW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5656339,
+          46.5206779
+        ]
+      },
+      "properties": {
+        "name": "#163",
+        "description": "@a_n_a_t_o_l_e_ : 46.5206779, 6.5656339\n31/03/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23163.png\" width=\"300\">"
+      },
+      "id": "fxxTc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          24.824424,
+          60.187989
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#164",
+        "description": "@baltha_bllt : Hei avec Antoine Vitupier on trouve que le tabouret rouge ressemble beaucoup à ceux de la design factory de Aalto mais bon c'est pas très précis. C'est la supply cave je vous ai tag sous un post où on voit les mêmes étagères derrière... j'ai cherché un lien avec l'epfl avant  de voir la date aujourd'hui mdr\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23164.png\" width=\"300\">\n01/04/2026\n"
+      },
+      "id": "Il2VT"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566532,
+          46.520193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#165",
+        "description": "@vic.rtw : La cour entre le ME B et le CM (celle qu'on voit depuis le CM1 5)\n02/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23165.png\" width=\"300\">"
+      },
+      "id": "S3NHW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565337,
+          46.52478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#166",
+        "description": "@gab_bnftm24 : Devant le bâtiment \"archi\" au triaudes\n13/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23166.png\" width=\"300\">"
+      },
+      "id": "v8HUA"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.573444,
+          46.519264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#167",
+        "description": "@hydremoule_50701 : Déchèterie a côté du Génopode, juste après le batochimie\n14/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23167.png\" width=\"300\">"
+      },
+      "id": "6rcBi"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566868,
+          46.518405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#168",
+        "description": "chill_phil_official : Juste devant lagora en regardant vers le rolex, autout du gros logo EPFL\n15/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23168.png\" width=\"300\">"
+      },
+      "id": "2v1eW"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56584,
+          46.521993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#169",
+        "description": "@baltha_bllt : route de la sorge croisement avec chemin du barrage\n16/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23169.png\" width=\"300\">"
+      },
+      "id": "Rdckp"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.562416,
+          46.520345
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#170",
+        "description": "@tachmakia : AI 0353\n17/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23170.png\" width=\"300\">"
+      },
+      "id": "bOHwq"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.567437,
+          46.520235
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#172",
+        "description": "@arsene_leb : Derrière le cm passage vers rolex et bat med, \n21/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23172.png\" width=\"300\">"
+      },
+      "id": "LY7M8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.564621,
+          46.519559
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#173",
+        "description": "@tachmakia : Hall ela\n22/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23173.png\" width=\"300\">"
+      },
+      "id": "5Tx4l"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.565134,
+          46.521943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#174",
+        "description": "@alexis.rmst :  aux marches à gauche de l’ascenseur sous le métro EPFL. Qui mène aux cerisiers\n23/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23174.png\" width=\"300\">"
+      },
+      "id": "k9Tpk"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.568173,
+          46.520904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#175",
+        "description": "@arsene_leb : Allee entre cm et ce à côté de l'entrée du bat gr niveau 0\n24/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23175.png\" width=\"300\">"
+      },
+      "id": "rZhyT"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.56478,
+          46.51877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#176",
+        "description": "@alexis.rmst : ElG 2eme étage (tout en haut) e montant les escaliers regarder à droite.\n27/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23176.png\" width=\"300\">"
+      },
+      "id": "RsDO1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.579024,
+          46.519253
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#177",
+        "description": "@baltha_bllt : Couloir au sous sol du centre sportif entre sos1 et sos2\n28/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23177.png\" width=\"300\">"
+      },
+      "id": "qjeOI"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.566756,
+          46.520133
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "#179",
+        "description": "@corentin.fresard : Turbine à gaz en haut du MEB, dehors\n30/04/2026\n<img src=\"https://raw.githubusercontent.com/balthaB/polyguessr-images/refs/heads/main/img/%23179.png\" width=\"300\">"
+      },
+      "id": "fpciP"
+    }
+  ]
+}
