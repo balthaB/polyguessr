@@ -89,7 +89,7 @@ export default function App() {
           position: 'absolute',
           top: '12px',
           left: '12px',
-          height: '128px',
+          height: 'clamp(20px, 7vw, 150px)',
           objectFit: 'contain',
           zIndex: 1000,
         }}
