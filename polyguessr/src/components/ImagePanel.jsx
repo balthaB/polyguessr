@@ -1,26 +1,26 @@
 export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, showResult }) {
-    return (
-      <div style={{ 
-        height: imageHeight,
-        transition: 'height 0.3s ease',
-        display: 'flex', 
-        alignItems: 'center', 
-        justifyContent: 'center',
-        backgroundColor: '#1a1a2e',
-        flexShrink: 0,
-        padding: '16px',
-        gap: '16px',
-      }}>
-      <div style={{ 
-        height: '100%',  
-        fontSize: '1.4rem', 
-        fontWeight: 'bold', 
-        display: 'flex', 
-        flexDirection: 'column', 
-        justifyContent: 'flex-end', 
+  return (
+    <div style={{
+      height: imageHeight,
+      transition: 'height 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#1a1a2e',
+      flexShrink: 0,
+      padding: '16px',
+      gap: '16px',
+    }}>
+      <div style={{
+        height: '100%',
+        fontSize: '1.4rem',
+        fontWeight: 'bold',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
         color: '#ffffffaa',
       }}>
-        
+
         <span>{spot.id}</span>
 
       </div>
@@ -28,7 +28,7 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
         src={spot.imageUrl}
         alt={spot.id}
         style={{
-          height: '100%', 
+          height: '100%',
           maxWidth: '70%',
           objectFit: 'contain',
           border: '3px solid #ffffff22',
@@ -36,16 +36,17 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
           boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
         }}
       />
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        justifyContent: 'flex-end', 
-        height: '100%', 
-        gap: '8px', 
-        color: 'white' }}>
-        
-        
-        <button 
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+        height: '100%',
+        gap: '8px',
+        color: 'white'
+      }}>
+
+
+        <button
           onClick={onPass}
           style={{
             marginTop: '8px',
@@ -60,7 +61,7 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
           onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
           onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
         >
-          ⏭ Pass
+          ⏭ Next
         </button>
         <button
           disabled={!(guess && !showResult)}
@@ -75,12 +76,12 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
             fontSize: '0.85rem',
             cursor: (guess && !showResult) ? 'pointer' : 'not-allowed',
           }}
-          onMouseOver={e => { if((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
-          onMouseOut={e => { if((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
+          onMouseOver={e => { if ((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
+          onMouseOut={e => { if ((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
         >
           Guess
         </button>
       </div>
     </div>
-    )
+  )
 }

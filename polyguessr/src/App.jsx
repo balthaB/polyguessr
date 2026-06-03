@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import ImagePanel from './components/ImagePanel'
 import Map from './components/Map'
 import L from 'leaflet'
+import logo from './assets/logo_polyguessr_v1.png'
 
 const CAMPUS_CENTER = [46.5197, 6.5665]
 const EXCLUDED = ['#77', '#164']
@@ -81,6 +82,18 @@ export default function App() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+      <img
+        src={logo}
+        alt="logo"
+        style={{
+          position: 'absolute',
+          top: '12px',
+          left: '12px',
+          height: '128px',
+          objectFit: 'contain',
+          zIndex: 1000,
+        }}
+      />
       <ImagePanel
         spot={currentSpot}
         onPass={() => pickRandom(spots)}
@@ -97,7 +110,7 @@ export default function App() {
         guess={guess}
         currentSpot={currentSpot}
         showResult={showResult}
-        distance = {distance}
+        distance={distance}
         score={score}
       />
     </div>
