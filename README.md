@@ -54,8 +54,6 @@ The `spots.geojson` file in `public/` is exported from UMap and contains:
 - Coordinates of each location
 - A description with the winning comment and a link to the photo on GitHub
 
-Photos are stored in [polyguessr/img](https://github.com/balthaB/polyguessr/img).
-
 ---
 
 ## Scoring
