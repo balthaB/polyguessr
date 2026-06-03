@@ -29,7 +29,7 @@ export default function App() {
   const [score, setScore] = useState(null)
 
   useEffect(() => {
-    fetch('spots.geojson')
+    fetch(' spots.geojson')
       .then(res => res.json())
       .then(data => {
         const parsed = data.features
@@ -75,13 +75,13 @@ export default function App() {
     setShowResult(true)
   }
 
-  const imageHeight = mapExpanded ? '30vh' : '50vh'
-  const mapHeight = mapExpanded ? '70vh' : '50vh'
+  const imageHeight = mapExpanded ? '30dvh' : '50dvh'
+  const mapHeight = mapExpanded ? '70dvh' : '50dvh'
 
   if (!currentSpot) return <p>Processing...</p>
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
       <img
         src={logo}
         alt="logo"
@@ -89,7 +89,7 @@ export default function App() {
           position: 'absolute',
           top: '12px',
           left: '12px',
-          height: 'clamp(20px, 7vw, 150px)',
+          height: 'clamp(40px, 7vw, 150px)',
           objectFit: 'contain',
           zIndex: 1000,
         }}
