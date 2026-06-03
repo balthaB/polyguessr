@@ -4,65 +4,69 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
       height: imageHeight,
       transition: 'height 0.3s ease',
       display: 'flex',
+      flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'space-between',
       backgroundColor: '#1a1a2e',
       flexShrink: 0,
-      padding: 'clamp(8px, 2vw, 16px)',
-      gap: 'clamp(8px, 2vw, 16px)',
+      padding: '12px',
+      gap: '8px',
     }}>
 
-      {/* LEFT: Spot ID */}
+      {/* TOP: Spot ID */}
       <div style={{
-        height: '100%',
-        fontSize: 'clamp(1rem, 4vw, 1.4rem)',
+        fontSize: '1.2rem',
         fontWeight: 'bold',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-end',
         color: '#ffffffaa',
         flexShrink: 0,
       }}>
         <span>{spot.id}</span>
       </div>
 
-      {/* CENTER: Image */}
-      <img
-        src={spot.imageUrl}
-        alt={spot.id}
-        style={{
-          height: '100%',
-          flex: 1,
-          minWidth: 0,
-          objectFit: 'contain',
-          border: '3px solid #ffffff22',
-          borderRadius: '8px',
-          boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
-        }}
-      />
+      {/* MIDDLE: Image Container */}
+      <div style={{
+        flex: 1,           // The container takes up all remaining vertical space
+        minHeight: 0,      // Crucial for shrinking on small screens
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center', // Centers the image horizontally
+        alignItems: 'center',     // Centers the image vertically
+      }}>
+        <img
+          src={spot.imageUrl}
+          alt={spot.id}
+          style={{
+            maxWidth: '100%',  // Prevents the image from overflowing the container
+            maxHeight: '100%', // Prevents the image from overflowing the container
+            // Notice we removed objectFit and width: 100%!
+            border: '3px solid #ffffff22',
+            borderRadius: '8px',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
+          }}
+        />
+      </div>
 
-      {/* RIGHT: Buttons */}
+      {/* BOTTOM: Buttons Container */}
       <div style={{
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-end',
-        height: '100%',
-        gap: '8px',
-        color: 'white',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        width: '100%',
+        gap: '16px',
         flexShrink: 0,
+        paddingBottom: '4px',
       }}>
         <button
           onClick={onPass}
           style={{
-            marginTop: '8px',
-            padding: 'clamp(6px, 2vw, 10px) clamp(10px, 3vw, 18px)',
+            padding: '10px 24px',
             backgroundColor: '#cc1f12',
             color: 'white',
             border: '1px solid #ffffff44',
             borderRadius: '20px',
             cursor: 'pointer',
-            fontSize: 'clamp(0.7rem, 2vw, 0.85rem)',
-            whiteSpace: 'nowrap',
+            fontSize: '1rem',
+            fontWeight: 'bold',
           }}
           onMouseOver={e => e.target.style.backgroundColor = 'transparent'}
           onMouseOut={e => e.target.style.backgroundColor = '#cc1f12'}
@@ -74,15 +78,14 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
           disabled={!(guess && !showResult)}
           onClick={onGuess}
           style={{
-            marginTop: '8px',
-            padding: 'clamp(6px, 2vw, 10px) clamp(10px, 3vw, 18px)',
+            padding: '10px 24px',
             backgroundColor: (guess && !showResult) ? '#cc1f12' : '#cc1f1222',
             color: 'white',
             border: '1px solid #ffffff44',
             borderRadius: '20px',
-            fontSize: 'clamp(0.7rem, 2vw, 0.85rem)',
+            fontSize: '1rem',
+            fontWeight: 'bold',
             cursor: (guess && !showResult) ? 'pointer' : 'not-allowed',
-            whiteSpace: 'nowrap',
           }}
           onMouseOver={e => { if ((guess && !showResult)) e.target.style.backgroundColor = 'transparent' }}
           onMouseOut={e => { if ((guess && !showResult)) e.target.style.backgroundColor = '#cc1f12' }}
