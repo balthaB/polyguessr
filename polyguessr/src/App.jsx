@@ -29,7 +29,7 @@ export default function App() {
   const [score, setScore] = useState(null)
 
   useEffect(() => {
-    fetch('/spots.geojson')
+    fetch('spots.geojson')
       .then(res => res.json())
       .then(data => {
         const parsed = data.features
