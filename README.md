@@ -44,6 +44,8 @@ npm run dev
 
 Then open [http://localhost:5173](http://localhost:5173).
 
+Or simply play at [https://balthab.github.io/polyguessr/](https://balthab.github.io/polyguessr/)
+
 ---
 
 ## Data
