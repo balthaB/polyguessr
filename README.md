@@ -3,7 +3,8 @@
 A GeoGuessr-style game for the EPFL campus! A photo of a campus location is shown — your job is to place a pin on the map as close as possible to where it was taken.
 Big thanks to the instagram account @polyguessr_ for the game concept and the amazing handtaken images.
 
-<img width="1719" height="1092" alt="image" src="https://github.com/user-attachments/assets/d4840348-b7f2-4c90-b185-2f6f286fb95b" />
+<img width="1709" height="1107" alt="image" src="https://github.com/user-attachments/assets/76084370-cadf-4e4b-aee3-0dc96720078a" />
+
 
 ---
 
