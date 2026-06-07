@@ -1,12 +1,11 @@
-export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, showResult }) {
+export default function ImagePanel({ spot, onPass, onGuess, guess, showResult }) {
   return (
     <div style={{
-      height: imageHeight,
+      height: '100%',
       transition: 'height 0.3s ease',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      justifyContent: 'space-between',
       backgroundColor: '#1a1a2e',
       flexShrink: 0,
       padding: '12px',
@@ -25,20 +24,19 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
 
       {/* MIDDLE: Image Container */}
       <div style={{
-        flex: 1,           // The container takes up all remaining vertical space
-        minHeight: 0,      // Crucial for shrinking on small screens
+        flexShrink: 1,
+        minHeight: 0,
         width: '100%',
         display: 'flex',
-        justifyContent: 'center', // Centers the image horizontally
-        alignItems: 'center',     // Centers the image vertically
+        justifyContent: 'center',
+        alignItems: 'center',
       }}>
         <img
           src={spot.imageUrl}
           alt={spot.id}
           style={{
-            maxWidth: '100%',  // Prevents the image from overflowing the container
-            maxHeight: '100%', // Prevents the image from overflowing the container
-            // Notice we removed objectFit and width: 100%!
+            maxWidth: '100%',
+            maxHeight: '100%',
             border: '3px solid #ffffff22',
             borderRadius: '8px',
             boxShadow: '0 4px 20px rgba(0,0,0,0.5)',

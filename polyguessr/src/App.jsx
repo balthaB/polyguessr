@@ -5,7 +5,7 @@ import L from 'leaflet'
 import logo from './assets/logo_polyguessr_v1.png'
 
 const CAMPUS_CENTER = [46.5197, 6.5665]
-const EXCLUDED = ['#77', '#164']
+const EXCLUDED = ['#77', '#164', '#151'] // 77 and 164 april fools and 151 no image for now
 
 function extractImageUrl(description) {
   const match = description?.match(/src="([^"]+)"/)
@@ -22,11 +22,11 @@ function ClickHandler({ onMapClick }) {
 export default function App() {
   const [spots, setSpots] = useState([])
   const [currentSpot, setCurrentSpot] = useState(null)
-  const [mapExpanded, setMapExpanded] = useState(false)
   const [guess, setGuess] = useState(null)
   const [showResult, setShowResult] = useState(false)
   const [distance, setDistance] = useState(null)
   const [score, setScore] = useState(null)
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 800)
 
   useEffect(() => {
     fetch(' spots.geojson')
@@ -47,13 +47,18 @@ export default function App() {
       })
   }, [])
 
+  useEffect(() => {
+    const handleResize = () => setIsDesktop(window.innerWidth >= 800)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  })
+
   function pickRandom(list) {
     const spot = list[Math.floor(Math.random() * list.length)]
     setCurrentSpot(spot)
     setGuess(null)
     setShowResult(false)
     setScore(null)
-    setMapExpanded(false)
   }
 
   const handleMapClick = (latlng) => {
@@ -75,44 +80,66 @@ export default function App() {
     setShowResult(true)
   }
 
-  const imageHeight = mapExpanded ? '30dvh' : '50dvh'
-  const mapHeight = mapExpanded ? '70dvh' : '50dvh'
+  const containerDirection = isDesktop ? 'row' : 'column'
+  const panelWidth = isDesktop ? '50vw' : '100%'
+  const imageHeight = isDesktop ? '100%' : '50%'
+  const mapHeight = isDesktop ? '100%' : '50%'
 
   if (!currentSpot) return <p>Processing...</p>
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
-      <img
-        src={logo}
-        alt="logo"
-        style={{
-          position: 'absolute',
-          top: '12px',
-          left: '12px',
-          height: 'clamp(40px, 7vw, 150px)',
-          objectFit: 'contain',
-          zIndex: 1000,
-        }}
-      />
-      <ImagePanel
-        spot={currentSpot}
-        onPass={() => pickRandom(spots)}
-        imageHeight={imageHeight}
-        onGuess={() => handleGuess()}
-        guess={guess}
-        showResult={showResult}
-      />
-      <Map
-        onMapClick={handleMapClick}
-        mapHeight={mapHeight}
-        expanded={mapExpanded}
-        onToggleExpand={() => setMapExpanded(!mapExpanded)}
-        guess={guess}
-        currentSpot={currentSpot}
-        showResult={showResult}
-        distance={distance}
-        score={score}
-      />
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden', backgroundColor: '#1a1a2e' }}>
+
+      {/* HEADER: */}
+      <div style={{
+        padding: '8px 12px',
+        display: 'flex',
+        alignItems: 'center',
+        flexShrink: 0,
+        borderBottom: '1px solid #ffffff22'
+      }}>
+        <img
+          src={logo}
+          alt="Polyguessr Logo"
+          style={{
+            height: 'clamp(40px, 7vh, 60px)',
+            objectFit: 'contain',
+          }}
+        />
+      </div>
+
+      {/* GAME AREA */}
+      <div style={{
+        display: 'flex',
+        flexDirection: containerDirection,
+        flex: 1,
+        minHeight: 0
+      }}>
+
+        {/* Left Side (or Top on Mobile) */}
+        <div style={{ width: panelWidth, height: imageHeight, transition: 'all 0.3s ease' }}>
+          <ImagePanel
+            spot={currentSpot}
+            onPass={() => pickRandom(spots)}
+            onGuess={() => handleGuess()}
+            guess={guess}
+            showResult={showResult}
+          />
+        </div>
+
+        {/* Right Side (or Bottom on Mobile) */}
+        <div style={{ width: panelWidth, height: mapHeight, transition: 'all 0.3s ease' }}>
+          <Map
+            onMapClick={handleMapClick}
+            guess={guess}
+            currentSpot={currentSpot}
+            showResult={showResult}
+            distance={distance}
+            score={score}
+          />
+        </div>
+
+      </div>
     </div>
   )
 }
