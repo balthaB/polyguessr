@@ -31,7 +31,7 @@ const resultIcon = divIcon({
     iconSize: [24, 36],
 })
 
-export default function GameMap({ onMapClick, mapHeight, expanded, onToggleExpand, guess, currentSpot, showResult, distance, score }) {
+export default function GameMap({ onMapClick, guess, currentSpot, showResult, distance, score }) {
     const boxSize = distance < 50 ? '1.2rem' : distance < 200 ? '0.95rem' : '0.75rem'
     const boxPadding = distance < 50 ? '2px 4px' : distance < 200 ? '8px 12px' : '6px 10px'
 
@@ -41,34 +41,8 @@ export default function GameMap({ onMapClick, mapHeight, expanded, onToggleExpan
 
     return (
         <>
-            {/* Expand button */}
-            <div style={{
-                backgroundColor: '#12122a',
-                display: 'flex',
-                justifyContent: 'center',
-                padding: '6px',
-                flexShrink: 0,
-            }}>
-                <button
-                    onClick={onToggleExpand}
-                    style={{
-                        backgroundColor: '#ffffff15',
-                        color: 'white',
-                        border: 'none',
-                        borderRadius: '12px',
-                        padding: '4px 16px',
-                        cursor: 'pointer',
-                        fontSize: '0.8rem',
-                    }}
-                    onMouseEnter={e => e.target.style.backgroundColor = '#ffffff30'}
-                    onMouseLeave={e => e.target.style.backgroundColor = '#ffffff15'}
-                >
-                    {expanded ? '▼ Reduce map' : '▲ Extend map'}
-                </button>
-            </div>
-
             {/* Map */}
-            <div style={{ height: mapHeight, transition: 'height 0.3s ease' }}>
+            <div style={{ height: '100%', transition: 'height 0.3s ease' }}>
                 <MapContainer center={CAMPUS_CENTER} zoom={18} maxZoom={24} style={{ height: '100%', width: '100%' }}>
                     <TileLayer
                         url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png"
