@@ -117,6 +117,7 @@ export default function App() {
           <ImagePanel
             spot={currentSpot}
             onPass={() => pickRandom(spots)}
+            imageHeight={imageHeight}
             onGuess={() => handleGuess()}
             guess={guess}
             showResult={showResult}
