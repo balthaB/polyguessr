@@ -38,7 +38,8 @@ export default function App() {
             id: f.properties.name,
             lat: f.geometry.coordinates[1],
             lng: f.geometry.coordinates[0],
-            imageUrl: extractImageUrl(f.properties.description),
+            // Remove the '#' from the name to get the correct image filename
+            imageUrl: `./img/${f.properties.name.replace('#', '')}.webp`
           }))
           .filter(s => s.imageUrl)
 
