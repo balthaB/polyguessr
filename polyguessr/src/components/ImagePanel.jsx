@@ -1,14 +1,15 @@
-export default function ImagePanel({ spot, onPass, onGuess, guess, showResult }) {
+export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, showResult }) {
   return (
     <div style={{
-      height: '100%',
+      height: imageHeight,
       transition: 'height 0.3s ease',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
+      justifyContent: 'space-between',
       backgroundColor: '#1a1a2e',
       flexShrink: 0,
-      padding: '12px',
+      padding: '16px',
       gap: '8px',
     }}>
 
@@ -24,12 +25,13 @@ export default function ImagePanel({ spot, onPass, onGuess, guess, showResult })
 
       {/* MIDDLE: Image Container */}
       <div style={{
-        flexShrink: 1,
+        flex: 1,
         minHeight: 0,
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        padding: '12 px 0',
       }}>
         <img
           src={spot.imageUrl}
@@ -53,6 +55,7 @@ export default function ImagePanel({ spot, onPass, onGuess, guess, showResult })
         gap: '16px',
         flexShrink: 0,
         paddingBottom: '4px',
+        height: '50px',
       }}>
         <button
           onClick={onPass}

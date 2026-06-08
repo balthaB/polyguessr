@@ -7,11 +7,6 @@ import logo from './assets/logo_polyguessr_v1.png'
 const CAMPUS_CENTER = [46.5197, 6.5665]
 const EXCLUDED = ['#77', '#164', '#151'] // 77 and 164 april fools and 151 no image for now
 
-function extractImageUrl(description) {
-  const match = description?.match(/src="([^"]+)"/)
-  return match ? match[1] : null
-}
-
 function ClickHandler({ onMapClick }) {
   useMapEvents({
     click: (e) => onMapClick(e.latlng)
@@ -38,7 +33,8 @@ export default function App() {
             id: f.properties.name,
             lat: f.geometry.coordinates[1],
             lng: f.geometry.coordinates[0],
-            imageUrl: extractImageUrl(f.properties.description),
+            // Remove the '#' from the name to get the correct image filename
+            imageUrl: `./img/${f.properties.name.replace('#', '')}.webp`
           }))
           .filter(s => s.imageUrl)
 
@@ -121,6 +117,7 @@ export default function App() {
           <ImagePanel
             spot={currentSpot}
             onPass={() => pickRandom(spots)}
+            imageHeight={imageHeight}
             onGuess={() => handleGuess()}
             guess={guess}
             showResult={showResult}
