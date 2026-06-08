@@ -7,11 +7,6 @@ import logo from './assets/logo_polyguessr_v1.png'
 const CAMPUS_CENTER = [46.5197, 6.5665]
 const EXCLUDED = ['#77', '#164', '#151'] // 77 and 164 april fools and 151 no image for now
 
-function extractImageUrl(description) {
-  const match = description?.match(/src="([^"]+)"/)
-  return match ? match[1] : null
-}
-
 function ClickHandler({ onMapClick }) {
   useMapEvents({
     click: (e) => onMapClick(e.latlng)
