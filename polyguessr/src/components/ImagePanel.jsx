@@ -1,7 +1,7 @@
 export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, showResult }) {
   return (
     <div style={{
-      height: imageHeight,
+      height: '100%',
       transition: 'height 0.3s ease',
       display: 'flex',
       flexDirection: 'column',
@@ -31,15 +31,18 @@ export default function ImagePanel({ spot, onPass, imageHeight, onGuess, guess, 
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '12 px 0',
+        padding: '6px',
       }}>
         <img
           src={spot.imageUrl}
           alt={spot.id}
           style={{
-            maxWidth: '100%',
             maxHeight: '100%',
-            border: '3px solid #ffffff22',
+            maxWidth: '100%',
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'contain',
+            border: '2px solid #ffffff22',
             borderRadius: '8px',
             boxShadow: '0 4px 20px rgba(0,0,0,0.5)',
           }}
